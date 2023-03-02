@@ -15,7 +15,7 @@ let numeroIngresado = parseInt(prompt("Ingrese un número (no mayor de 50): "))
 
 if (!isNaN(numeroIngresado)) {
 
-    if(numeroIngresado >= 0 && numeroIngresado <= 50){
+    if(numeroIngresado >= 1 && numeroIngresado <= 50){
        
         for ( i = numeroIngresado ; i >= 1 ; i--){
 
@@ -27,7 +27,7 @@ if (!isNaN(numeroIngresado)) {
         }
 
     } else {
-        alert("Error. Debe ingresar un número entre 0 y 50.")
+        alert("Error. Debe ingresar un número entre 1 y 50.")
     }
 
   
