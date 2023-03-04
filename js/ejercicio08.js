@@ -10,28 +10,19 @@
 ……
  */
 
-let numeroIngresado = parseInt(prompt("Ingrese un número (no mayor de 50): "))
-
+let numeroIngresado = parseInt(prompt("Ingrese un número (no mayor de 50): "));
 if (!isNaN(numeroIngresado)) {
-
-    
-    if(numeroIngresado >= 1 && numeroIngresado <= 50){
-       
-        for ( i = 1 ; i <= numeroIngresado ; i++){
-
-            for(j = 1; j<= i ; j++){
-        
-                document.write(`${j} `)
+    if (numeroIngresado >= 1 && numeroIngresado <= 50) {
+        for (i = 1; i <= numeroIngresado; i++) {
+            for (j = 1; j <= i; j++) {
+                document.write(`${j} `);
             }
-             document.write("<br>")
+            document.write("<br>");
         }
-
     } else {
-        alert("Error. Debe ingresar un número entre 1 y 50.")
+        alert("Error. Debe ingresar un número entre 1 y 50.");
     }
-
-  
 }
 else {
-    alert("Error. Debe ingresar un número válido.")
+    alert("Error. Debe ingresar un número válido.");
 }

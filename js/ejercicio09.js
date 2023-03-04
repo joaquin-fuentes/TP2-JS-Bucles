@@ -20,17 +20,17 @@ y que cada 5 líneas muestre una línea horizontal. Por ejemplo :
 for (i = 1; i <= 500; i++) {
     if (i % 4 === 0) {
         document.write(`${i} ( Múltiplo de 4)`);
-        document.write("<br>")
+        document.write("<br>");
     } else if (i % 9 === 0) {
         document.write(`${i} ( Múltiplo de 9)`);
-        document.write("<br>")
+        document.write("<br>");
     }
     else {
         document.write(i);
-        document.write("<br>")
+        document.write("<br>");
     }
     if (i % 5 === 0) {
-        document.write("————————————————————")
+        document.write("————————————————————");
         document.write("<br>");
     }
 

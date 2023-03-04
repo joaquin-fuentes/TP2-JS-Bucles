@@ -14,7 +14,6 @@ let nombre3 = prompt("Nombre 3:");
 let edad3 = parseInt(prompt("Edad 3:"));
 
 let maximo = Math.max(edad1, edad2, edad3);
-
 if (maximo === edad1) {
     document.write("El mayor es: " + nombre1);
 }

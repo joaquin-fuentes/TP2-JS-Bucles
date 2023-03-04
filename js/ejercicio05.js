@@ -18,21 +18,19 @@ do {
     let numeroDni = parseInt(prompt("Ingrese su número de DNI: "));
     if (!isNaN(numeroDni)) {
 
-        if(numeroDni >= 0 && numeroDni <= 99999999){
+        if (numeroDni >= 0 && numeroDni <= 99999999) {
             restoDivision = numeroDni % 23;
             letraDni = letrasPosibles.charAt(restoDivision);
-            alert(`El valor de la letra de su DNI es: ${letraDni}`)
-            document.write(`El valor de la letra de su DNI es: ${letraDni}`)
-            document.write("<br>")
+            alert(`El valor de la letra de su DNI es: ${letraDni}`);
+            document.write(`El valor de la letra de su DNI es: ${letraDni}`);
+            document.write("<br>");
 
         } else {
-            alert("Error. Debe ingresar un número entre 0 y 99999999.")
+            alert("Error. Debe ingresar un número entre 0 y 99999999.");
         }
-
-      
     }
     else {
-        alert("Error. Debe ingresar un número de DNI válido.")
+        alert("Error. Debe ingresar un número de DNI válido.");
     }
 } while (confirm("¿Desea ingresar otro numero?"));
 

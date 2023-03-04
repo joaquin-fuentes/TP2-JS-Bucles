@@ -15,8 +15,8 @@ for (let i = 0; i < longitudTexto; i++) {
         caracter.toLowerCase() === "i" || caracter.toLowerCase() === "í" ||
         caracter.toLowerCase() === "o" || caracter.toLowerCase() === "ó" ||
         caracter.toLowerCase() === "u" || caracter.toLowerCase() === "ú") {
-        vocales = vocales + 1
+        vocales = vocales + 1 ;
     }
 
 }
-document.write(`La cantidad de vocales que hay en el texto es de : ${vocales}`)
+document.write(`La cantidad de vocales que hay en el texto es de : ${vocales}`);

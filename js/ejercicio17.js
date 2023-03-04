@@ -23,4 +23,4 @@ for (let i = 0; i < longitudTexto; i++) {
     }
 }
 
-document.write(`La posicion de la 1ra vocal introducida en el texto es: ${posicion}`)
+document.write(`La posicion de la 1ra vocal introducida en el texto es: ${posicion}`);

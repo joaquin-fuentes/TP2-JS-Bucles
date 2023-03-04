@@ -12,7 +12,7 @@ do {
         sumaTotalDeNumeros = sumaTotalDeNumeros + numero;
     }
     else {
-        alert("Error. Debe ingresar un número válido (cualquier caracter numérico).")
+        alert("Error. Debe ingresar un número válido (cualquier caracter numérico).");
     }
 } while (confirm("¿Desea ingresar otro numero?"));
 

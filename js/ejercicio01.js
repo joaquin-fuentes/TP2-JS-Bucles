@@ -8,13 +8,13 @@ let edad = parseInt(prompt("Ingrese su edad: "));
 
 if (!isNaN(edad)) {
 
-    if(edad >= 18){
-        document.write("Usted ya es mayor de edad. Por lo tanto SI esta en condiciones de CONDUCIR")
+    if (edad >= 18) {
+        document.write("Usted ya es mayor de edad. Por lo tanto SI esta en condiciones de CONDUCIR");
     } else {
-        document.write("Usted aun no es mayor de edad. Por lo tanto NO esta en condiciones de CONDUCIR")
+        document.write("Usted aun no es mayor de edad. Por lo tanto NO esta en condiciones de CONDUCIR");
 
     }
 
 } else {
-    document.write("La edad ingresada no corresponde a un núero valido, por favor vuelva a intentar colocando su edad con números.")
+    document.write("La edad ingresada no corresponde a un núero valido, por favor vuelva a intentar colocando su edad con números.");
 }
