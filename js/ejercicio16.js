@@ -7,7 +7,7 @@ let longitudTexto = cadena.length;
 let caracter = "";
 let textoNuevo = "";
 for (let i = 0; i < longitudTexto; i++) {
-    caracter = cadena.charAt(i);    //recupera el caracter i del string.
+    caracter = cadena.charAt(i);
     textoNuevo = caracter + textoNuevo;
 }
 document.write(textoNuevo);
